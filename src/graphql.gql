@@ -1,0 +1,8 @@
+query myQuery($id: ID!, $checked: boolean!) {
+  myQuery(id: $id, checked: $checked) {
+    __typename
+    _id
+    title
+    createdAt
+  }
+}
